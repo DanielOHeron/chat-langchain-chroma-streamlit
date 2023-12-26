@@ -4,8 +4,8 @@ This repo takes the official chat langchain app [https://github.com/langchain-ai
 ## Running locally
 1. Add your openai api to the env.sh file and source the enviroment variables in bash. source ./env.sh
 2. Run python ingest.py to embed the documentation from the langchain documentation website, the api documentation website, and the langsmith documentation website.
-3. Run python chain.py to chat the docs
-4. Streamlit frontend coming soon
+3. Run python chain.py to chat the docs via terminal
+4. Run streamlit run streamlit_frontend.py for the streamlit front end
 
 ## Work in Progess
-Currently the project will work by adding your openai api to the environment variables env.sh, running ingest.py to create the vector database of the documentation, and using python chain.py to chat in the command line. Streamlit frontend coming soon!
+Streamlit frontend needs links added back to the source documentation for the retrieval part
